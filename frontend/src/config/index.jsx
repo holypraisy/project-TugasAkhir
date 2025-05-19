@@ -1,22 +1,41 @@
 export const registerFormControls = [
     {
         name : 'userName' ,
-        label : 'User Name', 
-        placeholder :'Enter your user name' ,
+        label : 'Nama Pengguna', 
+        placeholder :'Masukkan nama pengguna' ,
         componentType : 'input' , 
         type : 'text'   
     },
     {
-        name : 'Email' ,
+        name : 'email' ,
         label : 'Email', 
-        placeholder :'Enter your email' ,
+        placeholder :'Masukkan Email Anda' ,
         componentType : 'input' , 
         type : 'email'   
     },
     {
-        name : 'Password' ,
-        label : 'Password', 
-        placeholder :'Enter your Password' ,
+        name : 'password' ,
+        label : 'Kata Sandi', 
+        placeholder :'Masukkan Kata Sandi' ,
+        componentType : 'input' , 
+        type : 'password'   
+    }
+
+
+]
+
+export const loginFormControls = [
+    {
+        name : 'email' ,
+        label : 'Email', 
+        placeholder :'Masukkan Email Anda' ,
+        componentType : 'input' , 
+        type : 'email'   
+    },
+    {
+        name : 'password' ,
+        label : 'Kata Sandi', 
+        placeholder :'Masukkan Kata Sandi' ,
         componentType : 'input' , 
         type : 'password'   
     }
